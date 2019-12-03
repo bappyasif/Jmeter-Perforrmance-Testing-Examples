@@ -1,0 +1,43 @@
+line 20 column 453 - Warning: Warning: unescaped & which should be written as &amp;
+line 20 column 454 - Warning: Warning: unescaped & which should be written as &amp;
+line 20 column 948 - Warning: Warning: unescaped & which should be written as &amp;
+line 20 column 949 - Warning: Warning: unescaped & or unknown entity "&k.getContext"
+line 20 column 1,135 - Warning: Warning: unescaped & which should be written as &amp;
+line 20 column 1,136 - Warning: Warning: unescaped & or unknown entity "&c.supports"
+line 20 column 1,136 - Warning: <j.length> unexpected or duplicate quote mark
+line 20 column 1,136 - Warning: <j.length> unexpected or duplicate quote mark
+line 20 column 1,167 - Warning: Warning: unescaped & which should be written as &amp;
+line 20 column 1,168 - Warning: Warning: unescaped & which should be written as &amp;
+line 20 column 1,233 - Warning: Warning: unescaped & which should be written as &amp;
+line 20 column 1,234 - Warning: Warning: unescaped & or unknown entity "&c.supports"
+line 20 column 1,316 - Warning: Warning: unescaped & which should be written as &amp;
+line 20 column 1,317 - Warning: Warning: unescaped & which should be written as &amp;
+line 20 column 1,317 - Warning: <j.length> unexpected or duplicate quote mark
+line 20 column 1,317 - Warning: <j.length> unexpected or duplicate quote mark
+line 20 column 1,317 - Warning: <j.length> unexpected or duplicate quote mark
+line 20 column 1,317 - Warning: <j.length> unexpected or duplicate quote mark
+line 20 column 1,317 - Warning: <j.length> unexpected or duplicate quote mark
+line 20 column 1,317 - Warning: <j.length> unexpected or duplicate quote mark
+line 20 column 1,317 - Warning: <j.length> unexpected or duplicate quote mark
+line 20 column 1,317 - Warning: <j.length> unexpected or duplicate quote mark
+line 20 column 1,317 - Warning: <j.length> unexpected or duplicate quote mark
+line 20 column 1,317 - Warning: <j.length> unexpected or duplicate quote mark
+line 20 column 1,642 - Warning: Warning: unescaped & which should be written as &amp;
+line 20 column 1,643 - Warning: Warning: unescaped & or unknown entity "&c.readyCallback"
+line 20 column 1,720 - Warning: Warning: unescaped & which should be written as &amp;
+line 20 column 1,721 - Warning: Warning: unescaped & or unknown entity "&g.twemoji"
+line 20 column 1,731 - Warning: Warning: unescaped & which should be written as &amp;
+line 20 column 1,732 - Warning: Warning: unescaped & which should be written as &amp;
+line 20 column 1,732 - Warning: <j.length> attribute "i++)c.supports[j[i]]" has invalid value "e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);"
+line 20 column 1,732 - Error: <j.length> missing '>' for end of tag
+line 21 column 14 - Error: unexpected </script> in <j.length>
+line 136 column 36 - Warning: Warning: unescaped & or unknown entity "&r"
+line 145 column 38 - Warning: Warning: unescaped & or unknown entity "&hid"
+line 153 column 70 - Warning: Warning: unescaped & or unknown entity "&version"
+line 321 column 1 - Error: unexpected </head> in <meta>
+line 468 column 519 - Error: unexpected </form> in <input>
+line 468 column 526 - Error: unexpected </div> in <input>
+line 468 column 532 - Error: unexpected </div> in <input>
+34 warnings, 22 errors were found!
+This document has errors that must be fixed before
+using HTML Tidy to generate a tidied up version.
