@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+2019/12/17 20:58:33,984,HTTP Request,200,OK,Users Thread 1-1,text,true,,106555,240,1,1,https://goldgrizzly.com/,337,0,52
+2019/12/17 20:58:33,337,HTTP Request-0,301,Moved Permanently,Users Thread 1-1,text,true,,1650,120,1,1,http://goldgrizzly.com/,337,0,52
+2019/12/17 20:58:33,645,HTTP Request-1,200,OK,Users Thread 1-1,text,true,,104905,120,1,1,https://goldgrizzly.com/,584,0,210

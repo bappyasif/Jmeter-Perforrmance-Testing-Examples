@@ -1,0 +1,38 @@
+View logs by clicking on log viewer
+Can also be accessed from Options - Log Viewer
+Set different log levels from options menu
+ERROR
+WARN
+INFO
+DEBUG
+TRACE
+
+Log file in jmeter/bin :
+jmeter.log
+log4j2.xml
+
+
+Since 3.2, JMeter logging is not configured through properties file(s) such as jmeter.properties any more, but it is configured through a Apache Log4j 2 configuration file 
+References : http://jmeter.apache.org/usermanual/get-started.html#logging
+
+
+
+How to use Step by Step Debugger
+
+Plugin Manager - Step-by-Step Debugger
+Run - Step-by-Step Debugger
+
+
+What's New:
+
+1. New Look
+2. Change look and feel
+3. Supports Java 9
+4. Workbench Dropped
+5. Help - Useful Links | Export transactions for reports
+6. Other Changes
+
+JMeter will now save your test plan whenever you run it.
+Will by default start in the English language
+
+References - http://jmeter.apache.org/changes.html
