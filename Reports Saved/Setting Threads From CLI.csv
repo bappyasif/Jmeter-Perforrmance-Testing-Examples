@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+2019/12/18 21:02:31,2176,HTTP Request,200,OK,Users Thread 1-1,text,true,,55286,120,1,1,http://lifecharger.org/,1614,0,344
+2019/12/18 21:04:00,2092,HTTP Request,200,OK,Users Thread 1-1,text,true,,55286,120,1,1,http://lifecharger.org/,1575,0,295
+2019/12/18 21:09:20,3995,HTTP Request,200,OK,Users Thread 1-1,text,true,,55279,120,5,5,http://lifecharger.org/,3482,0,291
+2019/12/18 21:09:20,4661,HTTP Request,200,OK,Users Thread 1-2,text,true,,55279,120,4,4,http://lifecharger.org/,4117,0,273
+2019/12/18 21:09:21,4348,HTTP Request,200,OK,Users Thread 1-3,text,true,,55306,120,3,3,http://lifecharger.org/,3794,0,278
+2019/12/18 21:09:21,4300,HTTP Request,200,OK,Users Thread 1-5,text,true,,55293,120,2,2,http://lifecharger.org/,3747,0,277
+2019/12/18 21:09:21,4868,HTTP Request,200,OK,Users Thread 1-4,text,true,,55286,120,1,1,http://lifecharger.org/,4326,0,271

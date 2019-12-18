@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2.1">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="JSON Extractor Test Plan" enabled="true">
-      <stringProp name="TestPlan.comments">References:
-https://reqres.in/
-https://jsonformatter.org/
-
-https://codebeautify.org/jsonviewer
-http://jsonpathfinder.com/
-
-What is JSON Extractor
-How to use JSON Extractor
-How to refer multiple values
-How to refer json extracted values</stringProp>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Another JSON Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
@@ -55,33 +45,10 @@ How to refer json extracted values</stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="false">
-            <stringProp name="TestPlan.comments">To Access Variable Valuees From JSON Response We HAve To Use This Format :  $(followed By &apos;dot&apos; For Each Level Of Data TO Travers From The Top In Path Expression.
-
-If We Put -1 As A MAtch Number Then It Wiil Traverse Through All JSON Data It Received Chrtonologically And Match With Our Provided PAth Expression Values.</stringProp>
-            <stringProp name="JSONPostProcessor.referenceNames">userID;userFname;</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..id;$..first_name;</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers">-1</stringProp>
-            <stringProp name="JSONPostProcessor.defaultValues">noID;noName;</stringProp>
-          </JSONPostProcessor>
-          <hashTree/>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="false">
-            <stringProp name="JSONPostProcessor.referenceNames">UserID;</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..id;</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers">-1</stringProp>
-            <boolProp name="JSONPostProcessor.compute_concat">true</boolProp>
-          </JSONPostProcessor>
-          <hashTree/>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="false">
-            <stringProp name="JSONPostProcessor.referenceNames">UserID</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..id</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers">0</stringProp>
-          </JSONPostProcessor>
-          <hashTree/>
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
             <stringProp name="JSONPostProcessor.referenceNames">UserID</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..data[1].id</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers">8</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$..id;</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">0</stringProp>
           </JSONPostProcessor>
           <hashTree/>
         </hashTree>
@@ -102,9 +69,25 @@ If We Put -1 As A MAtch Number Then It Wiil Traverse Through All JSON Data It Re
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-          <stringProp name="TestPlan.comments">Using API Chaining To Extract Specefic Value From Previous API Requst And Will Be Used It Here To Path.</stringProp>
         </HTTPSamplerProxy>
-        <hashTree/>
+        <hashTree>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">UserEmail</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$..email</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+            <stringProp name="Sample.scope">children</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <JMESPathAssertion guiclass="JMESPathAssertionGui" testclass="JMESPathAssertion" testname="JSON JMESPath Assertion" enabled="true">
+            <stringProp name="JMES_PATH">data.email</stringProp>
+            <stringProp name="EXPECTED_VALUE"></stringProp>
+            <boolProp name="JSONVALIDATION">false</boolProp>
+            <boolProp name="EXPECT_NULL">false</boolProp>
+            <boolProp name="INVERT">false</boolProp>
+            <boolProp name="ISREGEX">true</boolProp>
+          </JMESPathAssertion>
+          <hashTree/>
+        </hashTree>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
