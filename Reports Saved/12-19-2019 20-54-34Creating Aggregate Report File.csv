@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+2019/12/19 20:54:35,2436,HTTP Request,200,OK,Users Thread 1-1,text,true,,55298,120,1,1,http://lifecharger.org/,1636,0,297
