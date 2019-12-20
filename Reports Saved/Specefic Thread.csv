@@ -1,0 +1,20 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+2019/12/20 21:40:33,2463,HTTP Request,200,OK,First Thread Group Users Dec-20-2019 21:40:27 1-1,text,true,,55261,120,5,5,http://lifecharger.org/,1925,0,308
+2019/12/20 21:40:33,2404,HTTP Request,200,OK,First Thread Group Users Dec-20-2019 21:40:27 1-2,text,true,,55254,120,4,4,http://lifecharger.org/,1858,0,273
+2019/12/20 21:40:33,2461,HTTP Request,200,OK,First Thread Group Users Dec-20-2019 21:40:27 1-3,text,true,,55288,120,3,3,http://lifecharger.org/,1907,0,404
+2019/12/20 21:40:33,2319,HTTP Request,200,OK,First Thread Group Users Dec-20-2019 21:40:27 1-4,text,true,,55268,120,2,2,http://lifecharger.org/,1757,0,282
+2019/12/20 21:40:34,2299,HTTP Request,200,OK,First Thread Group Users Dec-20-2019 21:40:27 1-5,text,true,,55254,120,1,1,http://lifecharger.org/,1733,0,282
+2019/12/20 21:41:22,3732,HTTP Request,200,OK,First Thread Group Users Dec-20-2019 21:41:38 1-1,text,true,,55261,120,5,8,http://lifecharger.org/,2886,0,320
+2019/12/20 21:41:23,3892,HTTP Request,200,OK,Second Thread Group Users 2-3,text,true,,55254,120,3,7,http://lifecharger.org/,3315,0,310
+2019/12/20 21:41:23,4009,HTTP Request,200,OK,First Thread Group Users Dec-20-2019 21:41:38 1-4,text,true,,55254,120,4,6,http://lifecharger.org/,3459,0,381
+2019/12/20 21:41:23,3884,HTTP Request,200,OK,First Thread Group Users Dec-20-2019 21:41:38 1-5,text,true,,55254,120,3,5,http://lifecharger.org/,3328,0,286
+2019/12/20 21:41:22,4469,HTTP Request,200,OK,First Thread Group Users Dec-20-2019 21:41:38 1-3,text,true,,55254,120,2,4,http://lifecharger.org/,3935,0,1599
+2019/12/20 21:41:22,4718,HTTP Request,200,OK,First Thread Group Users Dec-20-2019 21:41:38 1-2,text,true,,55254,120,1,3,http://lifecharger.org/,2786,0,277
+2019/12/20 21:41:22,20239,HTTP Request,200,OK,Second Thread Group Users 2-1,text,true,,55260,120,2,2,http://lifecharger.org/,3396,0,297
+2019/12/20 21:43:26,4377,HTTP Request,200,OK,Second Thread Group Users 2-1,text,true,,55261,120,3,5,http://lifecharger.org/,1722,0,300
+2019/12/20 21:43:26,4621,HTTP Request,200,OK,Second Thread Group Users 2-2,text,true,,55267,120,2,4,http://lifecharger.org/,1915,0,270
+2019/12/20 21:43:26,4526,HTTP Request,200,OK,Second Thread Group Users 2-3,text,true,,55268,120,1,3,http://lifecharger.org/,3428,0,266
+2019/12/20 21:43:26,4759,HTTP Request,200,OK,First Thread Group Users Dec-20-2019 21:43:03 1-2,text,true,,55268,120,2,2,http://lifecharger.org/,3638,0,288
+2019/12/20 21:44:26,3043,HTTP Request,200,OK,Second Thread Group Users 2-1,text,true,,55268,120,3,3,http://lifecharger.org/,2259,0,293
+2019/12/20 21:44:26,3143,HTTP Request,200,OK,Second Thread Group Users 2-2,text,true,,55260,120,2,2,http://lifecharger.org/,2342,0,267
+2019/12/20 21:44:26,3138,HTTP Request,200,OK,Second Thread Group Users 2-3,text,true,,55261,120,1,1,http://lifecharger.org/,2314,0,276
