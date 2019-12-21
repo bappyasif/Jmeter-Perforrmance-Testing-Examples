@@ -51,7 +51,16 @@ Step 7 : Run and validate
       <ProxyControl guiclass="ProxyControlGui" testclass="ProxyControl" testname="HTTP(S) Test Script Recorder" enabled="true">
         <stringProp name="ProxyControlGui.port">8383</stringProp>
         <collectionProp name="ProxyControlGui.exclude_list">
+          <stringProp name="-134850365">.*\.php-</stringProp>
+          <stringProp name="1358517207">.*\.js</stringProp>
+          <stringProp name="-134844877">.*\.png.</stringProp>
+          <stringProp name="-835646155">.*\.css</stringProp>
+          <stringProp name="-835639533">.*\.jpg</stringProp>
+          <stringProp name="-135226983">.*\.css.</stringProp>
           <stringProp name="921625070">(?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|woff|woff2).*</stringProp>
+          <stringProp name="-135021701">.*\.jpg.</stringProp>
+          <stringProp name="31038232"> .ttf</stringProp>
+          <stringProp name="-835633829">.*\.png</stringProp>
         </collectionProp>
         <collectionProp name="ProxyControlGui.include_list"/>
         <boolProp name="ProxyControlGui.capture_http_headers">true</boolProp>
