@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="3004" it="0" lt="2224" ct="290" ts="1577027218088" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55275" sby="120" ng="3" na="3">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2243" it="0" lt="1445" ct="269" ts="1577027219397" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55275" sby="120" ng="3" na="3">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2266" it="0" lt="1464" ct="268" ts="1577027220794" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="55282" sby="120" ng="4" na="4">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2983" it="0" lt="1297" ct="274" ts="1577027221113" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="36175" sby="337" ng="5" na="5">
+  <httpSample t="1297" it="0" lt="1297" ct="274" ts="1577027221113" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1683" it="0" lt="1142" ct="0" ts="1577027222413" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="35227" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="2411" it="0" lt="1587" ct="280" ts="1577027222192" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="55282" sby="120" ng="5" na="5">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3149" it="0" lt="1346" ct="273" ts="1577027221641" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="36175" sby="337" ng="5" na="5">
+  <httpSample t="1346" it="0" lt="1346" ct="273" ts="1577027221641" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1803" it="0" lt="1259" ct="0" ts="1577027222987" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="35227" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="2468" it="0" lt="1660" ct="275" ts="1577027223594" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="55282" sby="120" ng="5" na="5">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3394" it="0" lt="1462" ct="271" ts="1577027223062" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="36175" sby="337" ng="5" na="5">
+  <httpSample t="1462" it="0" lt="1462" ct="271" ts="1577027223062" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-3" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1931" it="0" lt="1390" ct="0" ts="1577027224525" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="35227" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="3159" it="0" lt="1435" ct="281" ts="1577027224099" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="35269" sby="277" ng="5" na="5">
+  <httpSample t="1435" it="0" lt="1435" ct="281" ts="1577027224099" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1723" it="0" lt="1160" ct="0" ts="1577027225535" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="34351" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3111" it="0" lt="1337" ct="279" ts="1577027226064" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="36175" sby="337" ng="5" na="5">
+  <httpSample t="1337" it="0" lt="1337" ct="279" ts="1577027226064" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-5" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1773" it="0" lt="1213" ct="0" ts="1577027227402" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="35227" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="5215" it="0" lt="1604" ct="272" ts="1577027224792" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="35269" sby="277" ng="5" na="5">
+  <httpSample t="1604" it="0" lt="1604" ct="272" ts="1577027224792" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="3610" it="0" lt="3029" ct="0" ts="1577027226397" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="34351" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="5411" it="0" lt="1571" ct="273" ts="1577027224604" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="36175" sby="337" ng="5" na="5">
+  <httpSample t="1571" it="0" lt="1571" ct="273" ts="1577027224604" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-4" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="3839" it="0" lt="1119" ct="0" ts="1577027226176" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="35227" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="4153" it="0" lt="2262" ct="303" ts="1577027226458" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="35269" sby="277" ng="5" na="5">
+  <httpSample t="2262" it="0" lt="2262" ct="303" ts="1577027226458" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-3" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1890" it="0" lt="1333" ct="275" ts="1577027228721" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="34351" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="4949" it="0" lt="2404" ct="1356" ts="1577027227259" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43993" sby="257" ng="5" na="5">
+  <httpSample t="2404" it="0" lt="2404" ct="1356" ts="1577027227259" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2545" it="0" lt="1387" ct="271" ts="1577027229663" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43085" sby="129" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3301" it="0" lt="1301" ct="268" ts="1577027229177" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="35269" sby="277" ng="4" na="4">
+  <httpSample t="1301" it="0" lt="1301" ct="268" ts="1577027229177" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-5" dt="text" by="918" sby="138" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1999" it="0" lt="1467" ct="0" ts="1577027230479" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="34351" sby="139" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3543" it="0" lt="1529" ct="282" ts="1577027230010" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43992" sby="257" ng="4" na="4">
+  <httpSample t="1529" it="0" lt="1529" ct="282" ts="1577027230010" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2013" it="0" lt="1192" ct="0" ts="1577027231540" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43084" sby="129" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3955" it="0" lt="1481" ct="0" ts="1577027230613" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="43992" sby="257" ng="3" na="3">
+  <httpSample t="1481" it="0" lt="1481" ct="0" ts="1577027230613" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-3" dt="text" by="908" sby="128" ng="3" na="3">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2473" it="0" lt="1633" ct="280" ts="1577027232095" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="43084" sby="129" ng="3" na="3">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="13583" it="0" lt="11614" ct="1927" ts="1577027230016" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="35269" sby="277" ng="2" na="2">
+  <httpSample t="11614" it="0" lt="11614" ct="1927" ts="1577027230016" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-4" dt="text" by="918" sby="138" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1968" it="0" lt="1417" ct="281" ts="1577027241631" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="34351" sby="139" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3051" it="0" lt="1005" ct="0" ts="1577027243601" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="43992" sby="257" ng="2" na="2">
+  <httpSample t="1005" it="0" lt="1005" ct="0" ts="1577027243601" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-4" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2046" it="0" lt="1245" ct="290" ts="1577027244606" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="43084" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+
+<httpSample t="2251" it="0" lt="1448" ct="305" ts="1577027480473" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55289" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2357" it="0" lt="1553" ct="270" ts="1577027481780" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55275" sby="120" ng="3" na="3">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2306" it="0" lt="1496" ct="272" ts="1577027483178" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="55275" sby="120" ng="4" na="4">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3003" it="0" lt="1400" ct="274" ts="1577027482740" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="36175" sby="337" ng="4" na="4">
+  <httpSample t="1400" it="0" lt="1400" ct="274" ts="1577027482740" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="948" sby="168" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1600" it="0" lt="1053" ct="0" ts="1577027484143" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="35227" sby="169" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="2484" it="0" lt="1690" ct="265" ts="1577027484578" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="55275" sby="120" ng="5" na="5">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3214" it="0" lt="1260" ct="272" ts="1577027484138" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="36176" sby="337" ng="5" na="5">
+  <httpSample t="1260" it="0" lt="1260" ct="272" ts="1577027484138" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1953" it="0" lt="1411" ct="0" ts="1577027485399" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="35228" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="3704" it="0" lt="2876" ct="279" ts="1577027485977" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="55282" sby="120" ng="5" na="5">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="5117" it="0" lt="2315" ct="275" ts="1577027485485" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="36175" sby="337" ng="5" na="5">
+  <httpSample t="2315" it="0" lt="2315" ct="275" ts="1577027485485" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-3" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="2801" it="0" lt="2251" ct="273" ts="1577027487801" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="35227" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="3970" it="0" lt="1925" ct="269" ts="1577027487063" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="36176" sby="337" ng="5" na="5">
+  <httpSample t="1925" it="0" lt="1925" ct="269" ts="1577027487063" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-4" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="2045" it="0" lt="1512" ct="0" ts="1577027488988" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="35228" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="4570" it="0" lt="2454" ct="272" ts="1577027487355" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="35269" sby="277" ng="5" na="5">
+  <httpSample t="2454" it="0" lt="2454" ct="272" ts="1577027487355" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="2115" it="0" lt="1557" ct="282" ts="1577027489810" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="34351" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="6531" it="0" lt="2254" ct="272" ts="1577027485745" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="35269" sby="277" ng="5" na="5">
+  <httpSample t="2254" it="0" lt="2254" ct="272" ts="1577027485745" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="4277" it="0" lt="2048" ct="271" ts="1577027487999" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="34351" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3645" it="0" lt="1547" ct="268" ts="1577027489683" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="36175" sby="337" ng="5" na="5">
+  <httpSample t="1547" it="0" lt="1547" ct="268" ts="1577027489683" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-5" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="2098" it="0" lt="1567" ct="0" ts="1577027491230" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="35227" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="3812" it="0" lt="1378" ct="266" ts="1577027490609" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="35269" sby="277" ng="5" na="5">
+  <httpSample t="1378" it="0" lt="1378" ct="266" ts="1577027490609" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-3" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="2433" it="0" lt="1906" ct="0" ts="1577027491988" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="34351" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3524" it="0" lt="1372" ct="279" ts="1577027491036" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="35276" sby="277" ng="5" na="5">
+  <httpSample t="1373" it="0" lt="1372" ct="279" ts="1577027491036" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-4" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="2151" it="0" lt="1598" ct="0" ts="1577027492409" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="34358" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="4143" it="0" lt="1945" ct="273" ts="1577027491926" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43992" sby="257" ng="5" na="5">
+  <httpSample t="1945" it="0" lt="1945" ct="273" ts="1577027491926" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2198" it="0" lt="1388" ct="0" ts="1577027493871" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43084" sby="129" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="4104" it="0" lt="1826" ct="275" ts="1577027492278" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="44013" sby="257" ng="4" na="4">
+  <httpSample t="1826" it="0" lt="1826" ct="275" ts="1577027492278" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2277" it="0" lt="1729" ct="0" ts="1577027494105" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43105" sby="129" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3650" it="0" lt="1611" ct="276" ts="1577027493330" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="35269" sby="277" ng="3" na="3">
+  <httpSample t="1611" it="0" lt="1611" ct="276" ts="1577027493330" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-5" dt="text" by="918" sby="138" ng="3" na="3">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="2038" it="0" lt="1489" ct="0" ts="1577027494942" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="34351" sby="139" ng="3" na="3">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3676" it="0" lt="1788" ct="273" ts="1577027494562" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="44032" sby="257" ng="3" na="3">
+  <httpSample t="1788" it="0" lt="1788" ct="273" ts="1577027494562" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-4" dt="text" by="908" sby="128" ng="3" na="3">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1888" it="0" lt="1070" ct="0" ts="1577027496350" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="43124" sby="129" ng="3" na="3">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3820" it="0" lt="1704" ct="264" ts="1577027494423" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="43992" sby="257" ng="2" na="2">
+  <httpSample t="1704" it="0" lt="1704" ct="264" ts="1577027494423" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-3" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2115" it="0" lt="1334" ct="0" ts="1577027496128" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="43084" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3210" it="0" lt="1300" ct="277" ts="1577027496999" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="43992" sby="257" ng="1" na="1">
+  <httpSample t="1300" it="0" lt="1300" ct="277" ts="1577027496999" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-5" dt="text" by="908" sby="128" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1909" it="0" lt="1091" ct="0" ts="1577027498300" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="43084" sby="129" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+
+<httpSample t="2316" it="0" lt="1517" ct="297" ts="1577027914393" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55254" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2216" it="0" lt="1421" ct="265" ts="1577027915696" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55261" sby="120" ng="3" na="3">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2330" it="0" lt="1482" ct="282" ts="1577027917095" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="55254" sby="120" ng="4" na="4">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2833" it="0" lt="1438" ct="271" ts="1577027918495" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="55254" sby="120" ng="5" na="5">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2882" it="0" lt="1294" ct="273" ts="1577027919426" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="36189" sby="337" ng="5" na="5">
+  <httpSample t="1294" it="0" lt="1294" ct="273" ts="1577027919426" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-3" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1587" it="0" lt="1046" ct="0" ts="1577027920721" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="35241" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="5190" it="0" lt="1273" ct="282" ts="1577027917914" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="36154" sby="337" ng="5" na="5">
+  <httpSample t="1273" it="0" lt="1273" ct="282" ts="1577027917914" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="3916" it="0" lt="2110" ct="0" ts="1577027919188" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="35206" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="2844" it="0" lt="1251" ct="270" ts="1577027921329" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="36174" sby="337" ng="5" na="5">
+  <httpSample t="1251" it="0" lt="1251" ct="270" ts="1577027921329" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-4" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1593" it="0" lt="1059" ct="0" ts="1577027922580" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="35226" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="2805" it="0" lt="1308" ct="265" ts="1577027922310" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="35248" sby="277" ng="5" na="5">
+  <httpSample t="1308" it="0" lt="1308" ct="265" ts="1577027922310" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-3" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1496" it="0" lt="972" ct="0" ts="1577027923619" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="34330" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="2812" it="0" lt="1246" ct="267" ts="1577027923105" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="35248" sby="277" ng="5" na="5">
+  <httpSample t="1246" it="0" lt="1246" ct="267" ts="1577027923105" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1566" it="0" lt="1033" ct="0" ts="1577027924351" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="34330" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="2969" it="0" lt="1338" ct="273" ts="1577027924175" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="35269" sby="277" ng="5" na="5">
+  <httpSample t="1338" it="0" lt="1338" ct="273" ts="1577027924175" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-4" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1630" it="0" lt="1098" ct="0" ts="1577027925514" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="34351" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3167" it="0" lt="1335" ct="300" ts="1577027925118" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="43971" sby="257" ng="5" na="5">
+  <httpSample t="1335" it="0" lt="1335" ct="300" ts="1577027925118" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-3" dt="text" by="908" sby="128" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1831" it="0" lt="1017" ct="0" ts="1577027926454" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="43063" sby="129" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3206" it="0" lt="1263" ct="277" ts="1577027925919" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="44013" sby="257" ng="4" na="4">
+  <httpSample t="1263" it="0" lt="1263" ct="277" ts="1577027925919" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1943" it="0" lt="1129" ct="0" ts="1577027927182" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43105" sby="129" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="9461" it="0" lt="1729" ct="275" ts="1577027919895" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="55254" sby="120" ng="3" na="3">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3135" it="0" lt="1289" ct="267" ts="1577027927146" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="43971" sby="257" ng="3" na="3">
+  <httpSample t="1289" it="0" lt="1289" ct="267" ts="1577027927146" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-4" dt="text" by="908" sby="128" ng="3" na="3">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1845" it="0" lt="1046" ct="0" ts="1577027928436" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="43063" sby="129" ng="3" na="3">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="2792" it="0" lt="1229" ct="274" ts="1577027929357" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="36154" sby="337" ng="2" na="2">
+  <httpSample t="1229" it="0" lt="1229" ct="274" ts="1577027929357" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-5" dt="text" by="948" sby="168" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1562" it="0" lt="1019" ct="0" ts="1577027930587" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="35206" sby="169" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="2986" it="0" lt="1304" ct="275" ts="1577027932152" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="35248" sby="277" ng="2" na="2">
+  <httpSample t="1304" it="0" lt="1304" ct="275" ts="1577027932152" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-5" dt="text" by="918" sby="138" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1681" it="0" lt="1118" ct="0" ts="1577027933457" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="34330" sby="139" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3204" it="0" lt="1282" ct="272" ts="1577027935139" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="43971" sby="257" ng="2" na="2">
+  <httpSample t="1282" it="0" lt="1282" ct="272" ts="1577027935139" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-5" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1921" it="0" lt="1115" ct="0" ts="1577027936422" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="43063" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+
+<httpSample t="2399" it="0" lt="1543" ct="306" ts="1577028095594" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55254" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2259" it="0" lt="1462" ct="267" ts="1577028096899" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55267" sby="120" ng="3" na="3">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2827" it="0" lt="1679" ct="278" ts="1577028098298" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="55254" sby="120" ng="5" na="5">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2271" it="0" lt="1432" ct="282" ts="1577028099694" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="55254" sby="120" ng="5" na="5">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="4351" it="0" lt="1291" ct="266" ts="1577028097998" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="36188" sby="337" ng="5" na="5">
+  <httpSample t="1291" it="0" lt="1291" ct="266" ts="1577028097998" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="3056" it="0" lt="1159" ct="0" ts="1577028099293" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="35240" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="2490" it="0" lt="1524" ct="272" ts="1577028101094" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="55261" sby="120" ng="5" na="5">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="4698" it="0" lt="2499" ct="1542" ts="1577028099160" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="36161" sby="337" ng="5" na="5">
+  <httpSample t="2499" it="0" lt="2499" ct="1542" ts="1577028099160" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="2198" it="0" lt="1380" ct="273" ts="1577028101660" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="35213" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="3003" it="0" lt="1370" ct="271" ts="1577028101127" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="36154" sby="337" ng="5" na="5">
+  <httpSample t="1370" it="0" lt="1370" ct="271" ts="1577028101127" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-3" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1633" it="0" lt="1088" ct="0" ts="1577028102497" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="35206" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="2781" it="0" lt="1236" ct="272" ts="1577028102350" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="35282" sby="277" ng="5" na="5">
+  <httpSample t="1236" it="0" lt="1236" ct="272" ts="1577028102350" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1545" it="0" lt="1000" ct="0" ts="1577028103586" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="34364" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3506" it="0" lt="1902" ct="275" ts="1577028101967" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="36154" sby="337" ng="5" na="5">
+  <httpSample t="1902" it="0" lt="1902" ct="275" ts="1577028101967" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-4" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1603" it="0" lt="1049" ct="0" ts="1577028103870" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="35206" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="2894" it="0" lt="1308" ct="277" ts="1577028103586" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="36155" sby="337" ng="5" na="5">
+  <httpSample t="1308" it="0" lt="1308" ct="277" ts="1577028103586" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-5" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1586" it="0" lt="1038" ct="0" ts="1577028104894" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="35207" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="2848" it="0" lt="1250" ct="268" ts="1577028103860" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="35248" sby="277" ng="5" na="5">
+  <httpSample t="1250" it="0" lt="1250" ct="268" ts="1577028103860" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1597" it="0" lt="1068" ct="0" ts="1577028105111" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="34330" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="2822" it="0" lt="1224" ct="272" ts="1577028104132" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="35248" sby="277" ng="5" na="5">
+  <httpSample t="1224" it="0" lt="1224" ct="272" ts="1577028104132" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-3" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1597" it="0" lt="1045" ct="0" ts="1577028105357" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="34330" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3104" it="0" lt="1237" ct="266" ts="1577028105134" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43971" sby="257" ng="5" na="5">
+  <httpSample t="1237" it="0" lt="1237" ct="266" ts="1577028105134" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1867" it="0" lt="1027" ct="0" ts="1577028106371" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43063" sby="129" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3325" it="0" lt="1581" ct="276" ts="1577028105474" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="35276" sby="277" ng="4" na="4">
+  <httpSample t="1581" it="0" lt="1581" ct="276" ts="1577028105474" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-4" dt="text" by="918" sby="138" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1744" it="0" lt="1185" ct="0" ts="1577028107055" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="34358" sby="139" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3130" it="0" lt="1429" ct="273" ts="1577028106480" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="35248" sby="277" ng="4" na="4">
+  <httpSample t="1429" it="0" lt="1429" ct="273" ts="1577028106480" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-5" dt="text" by="918" sby="138" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1701" it="0" lt="1152" ct="0" ts="1577028107909" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="34330" sby="139" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3204" it="0" lt="1571" ct="270" ts="1577028106956" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="43971" sby="257" ng="4" na="4">
+  <httpSample t="1571" it="0" lt="1571" ct="270" ts="1577028106956" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-3" dt="text" by="908" sby="128" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1633" it="0" lt="1089" ct="0" ts="1577028108527" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="43063" sby="129" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3457" it="0" lt="1528" ct="276" ts="1577028106710" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43971" sby="257" ng="3" na="3">
+  <httpSample t="1528" it="0" lt="1528" ct="276" ts="1577028106710" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="3" na="3">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1928" it="0" lt="1108" ct="0" ts="1577028108239" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43063" sby="129" ng="3" na="3">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3379" it="0" lt="1224" ct="272" ts="1577028108801" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="43972" sby="257" ng="2" na="2">
+  <httpSample t="1224" it="0" lt="1224" ct="272" ts="1577028108801" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-4" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2154" it="0" lt="1077" ct="0" ts="1577028110026" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="43064" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3199" it="0" lt="1355" ct="278" ts="1577028109612" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="44032" sby="257" ng="1" na="1">
+  <httpSample t="1355" it="0" lt="1355" ct="278" ts="1577028109612" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-5" dt="text" by="908" sby="128" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1844" it="0" lt="1022" ct="0" ts="1577028110967" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="43124" sby="129" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+
+<httpSample t="2290" it="0" lt="1475" ct="300" ts="1577028649675" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55282" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2275" it="0" lt="1439" ct="278" ts="1577028650977" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55275" sby="120" ng="3" na="3">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2253" it="0" lt="1438" ct="272" ts="1577028652379" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="55261" sby="120" ng="4" na="4">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2871" it="0" lt="1251" ct="277" ts="1577028651982" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="36176" sby="337" ng="4" na="4">
+  <httpSample t="1251" it="0" lt="1251" ct="277" ts="1577028651982" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="948" sby="168" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1616" it="0" lt="1065" ct="0" ts="1577028653237" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="35228" sby="169" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="2269" it="0" lt="1442" ct="279" ts="1577028653778" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="55289" sby="120" ng="5" na="5">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2840" it="0" lt="1271" ct="275" ts="1577028653253" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="36182" sby="337" ng="5" na="5">
+  <httpSample t="1271" it="0" lt="1271" ct="275" ts="1577028653253" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1569" it="0" lt="1026" ct="0" ts="1577028654524" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="35234" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="2259" it="0" lt="1423" ct="280" ts="1577028655178" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="55282" sby="120" ng="5" na="5">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2824" it="0" lt="1262" ct="279" ts="1577028654633" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="36176" sby="337" ng="5" na="5">
+  <httpSample t="1262" it="0" lt="1262" ct="279" ts="1577028654633" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-3" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1562" it="0" lt="1007" ct="0" ts="1577028655895" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="35228" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="2808" it="0" lt="1241" ct="278" ts="1577028654855" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="35269" sby="277" ng="5" na="5">
+  <httpSample t="1241" it="0" lt="1241" ct="278" ts="1577028654855" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1567" it="0" lt="1013" ct="0" ts="1577028656096" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="34351" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="2875" it="0" lt="1282" ct="283" ts="1577028656049" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="36189" sby="337" ng="5" na="5">
+  <httpSample t="1282" it="0" lt="1282" ct="283" ts="1577028656049" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-4" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1592" it="0" lt="1013" ct="0" ts="1577028657332" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="35241" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="2875" it="0" lt="1300" ct="274" ts="1577028656093" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="35269" sby="277" ng="5" na="5">
+  <httpSample t="1300" it="0" lt="1300" ct="274" ts="1577028656093" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1575" it="0" lt="1012" ct="0" ts="1577028657393" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="34351" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3242" it="0" lt="1586" ct="274" ts="1577028657459" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="35269" sby="277" ng="5" na="5">
+  <httpSample t="1586" it="0" lt="1586" ct="274" ts="1577028657459" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-3" dt="text" by="918" sby="138" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1656" it="0" lt="1102" ct="0" ts="1577028659045" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="34351" sby="139" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3391" it="0" lt="1616" ct="281" ts="1577028657438" s="true" lb="Article Post HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="36176" sby="337" ng="5" na="5">
+  <httpSample t="1616" it="0" lt="1616" ct="281" ts="1577028657438" s="true" lb="Article Post HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-5" dt="text" by="948" sby="168" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life</java.net.URL>
+  </httpSample>
+  <httpSample t="1774" it="0" lt="1127" ct="0" ts="1577028659055" s="true" lb="Article Post HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="35228" sby="169" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/make-the-rest-of-your-life-the-best-of-your-life/</java.net.URL>
+</httpSample>
+<httpSample t="4100" it="0" lt="1606" ct="275" ts="1577028657664" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43999" sby="257" ng="5" na="5">
+  <httpSample t="1606" it="0" lt="1606" ct="275" ts="1577028657664" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2494" it="0" lt="1671" ct="0" ts="1577028659270" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43091" sby="129" ng="5" na="5">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3519" it="0" lt="1933" ct="273" ts="1577028658925" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="35295" sby="277" ng="4" na="4">
+  <httpSample t="1933" it="0" lt="1933" ct="273" ts="1577028658925" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-4" dt="text" by="918" sby="138" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1586" it="0" lt="1041" ct="0" ts="1577028660858" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="34377" sby="139" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3763" it="0" lt="1887" ct="275" ts="1577028658969" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43992" sby="257" ng="4" na="4">
+  <httpSample t="1887" it="0" lt="1887" ct="275" ts="1577028658969" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1876" it="0" lt="1057" ct="0" ts="1577028660856" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43084" sby="129" ng="4" na="4">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="2794" it="0" lt="1258" ct="276" ts="1577028660830" s="true" lb="Books List HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="35269" sby="277" ng="3" na="3">
+  <httpSample t="1258" it="0" lt="1258" ct="276" ts="1577028660830" s="true" lb="Books List HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-5" dt="text" by="918" sby="138" ng="3" na="3">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading</java.net.URL>
+  </httpSample>
+  <httpSample t="1535" it="0" lt="979" ct="0" ts="1577028662089" s="true" lb="Books List HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="34351" sby="139" ng="3" na="3">
+    <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+<httpSample t="3134" it="0" lt="1285" ct="274" ts="1577028660704" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="43993" sby="257" ng="3" na="3">
+  <httpSample t="1285" it="0" lt="1285" ct="274" ts="1577028660704" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-3" dt="text" by="908" sby="128" ng="3" na="3">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1849" it="0" lt="1038" ct="0" ts="1577028661989" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-3" dt="text" by="43085" sby="129" ng="3" na="3">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3009" it="0" lt="1222" ct="279" ts="1577028662445" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="44020" sby="257" ng="2" na="2">
+  <httpSample t="1222" it="0" lt="1222" ct="279" ts="1577028662445" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-4" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1787" it="0" lt="963" ct="0" ts="1577028663667" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-4" dt="text" by="43112" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3117" it="0" lt="1247" ct="279" ts="1577028663625" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="44000" sby="257" ng="1" na="1">
+  <httpSample t="1247" it="0" lt="1247" ct="279" ts="1577028663625" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-5" dt="text" by="908" sby="128" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1870" it="0" lt="1035" ct="0" ts="1577028664872" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-5" dt="text" by="43092" sby="129" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+
+</testResults>
