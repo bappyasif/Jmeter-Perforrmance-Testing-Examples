@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="2281" it="0" lt="1477" ct="304" ts="1577115578007" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55296" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2389" it="0" lt="1543" ct="303" ts="1577115579415" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55275" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3315" it="0" lt="1332" ct="282" ts="1577115580305" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43992" sby="257" ng="2" na="2">
+  <httpSample t="1332" it="0" lt="1332" ct="282" ts="1577115580305" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1981" it="0" lt="1138" ct="0" ts="1577115581639" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43084" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3839" it="0" lt="1431" ct="282" ts="1577115581804" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="44018" sby="257" ng="2" na="2">
+  <httpSample t="1431" it="0" lt="1431" ct="282" ts="1577115581804" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2407" it="0" lt="1837" ct="0" ts="1577115583236" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43110" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3773" it="0" lt="2938" ct="1739" ts="1577115583625" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55310" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2307" it="0" lt="1492" ct="272" ts="1577115585646" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55282" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3286" it="0" lt="1399" ct="292" ts="1577115587399" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43993" sby="257" ng="2" na="2">
+  <httpSample t="1399" it="0" lt="1399" ct="292" ts="1577115587399" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1887" it="0" lt="1047" ct="0" ts="1577115588798" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43085" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3365" it="0" lt="1503" ct="275" ts="1577115587954" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="44039" sby="257" ng="2" na="2">
+  <httpSample t="1503" it="0" lt="1503" ct="275" ts="1577115587954" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1861" it="0" lt="1045" ct="0" ts="1577115589458" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43131" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="2334" it="0" lt="1510" ct="277" ts="1577115590685" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55282" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2219" it="0" lt="1423" ct="266" ts="1577115591321" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55275" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3151" it="0" lt="1246" ct="274" ts="1577115593540" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="44032" sby="257" ng="2" na="2">
+  <httpSample t="1246" it="0" lt="1246" ct="274" ts="1577115593540" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1905" it="0" lt="1085" ct="0" ts="1577115594786" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43124" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="7770" it="0" lt="1863" ct="264" ts="1577115593019" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43999" sby="257" ng="2" na="2">
+  <httpSample t="1863" it="0" lt="1863" ct="264" ts="1577115593019" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="5907" it="0" lt="1347" ct="0" ts="1577115594882" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43091" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="2460" it="0" lt="1646" ct="282" ts="1577115600799" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55296" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3138" it="0" lt="1305" ct="266" ts="1577115603261" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43992" sby="257" ng="2" na="2">
+  <httpSample t="1305" it="0" lt="1305" ct="266" ts="1577115603261" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1832" it="0" lt="1038" ct="0" ts="1577115604567" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43084" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="16594" it="0" lt="2603" ct="285" ts="1577115596693" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55317" sby="120" ng="1" na="1">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3244" it="0" lt="1315" ct="280" ts="1577115613290" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="44012" sby="257" ng="1" na="1">
+  <httpSample t="1315" it="0" lt="1315" ct="280" ts="1577115613290" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1929" it="0" lt="1074" ct="0" ts="1577115614605" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43104" sby="129" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+
+<httpSample t="2341" it="0" lt="1548" ct="298" ts="1577115716052" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55275" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2281" it="0" lt="1470" ct="273" ts="1577115717461" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55288" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3246" it="0" lt="1315" ct="271" ts="1577115718413" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43992" sby="257" ng="2" na="2">
+  <httpSample t="1315" it="0" lt="1315" ct="271" ts="1577115718413" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1927" it="0" lt="1109" ct="0" ts="1577115719732" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43084" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3206" it="0" lt="1308" ct="275" ts="1577115719744" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43999" sby="257" ng="2" na="2">
+  <httpSample t="1308" it="0" lt="1308" ct="275" ts="1577115719744" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1898" it="0" lt="1082" ct="0" ts="1577115721052" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43091" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="2264" it="0" lt="1442" ct="274" ts="1577115721662" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55289" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2299" it="0" lt="1489" ct="273" ts="1577115722952" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55316" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="4226" it="0" lt="1320" ct="291" ts="1577115723928" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43992" sby="257" ng="2" na="2">
+  <httpSample t="1320" it="0" lt="1320" ct="291" ts="1577115723928" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2906" it="0" lt="1082" ct="0" ts="1577115725248" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43084" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3722" it="0" lt="1290" ct="273" ts="1577115725252" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43992" sby="257" ng="2" na="2">
+  <httpSample t="1290" it="0" lt="1290" ct="273" ts="1577115725252" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2431" it="0" lt="1888" ct="0" ts="1577115726543" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43084" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="2237" it="0" lt="1436" ct="274" ts="1577115728156" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55295" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3243" it="0" lt="1330" ct="271" ts="1577115730395" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43999" sby="257" ng="2" na="2">
+  <httpSample t="1330" it="0" lt="1330" ct="271" ts="1577115730395" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1913" it="0" lt="1109" ct="0" ts="1577115731725" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43091" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="2292" it="0" lt="1479" ct="273" ts="1577115733640" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55289" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="7923" it="0" lt="2303" ct="269" ts="1577115728976" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55282" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3453" it="0" lt="1419" ct="275" ts="1577115735932" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43992" sby="257" ng="2" na="2">
+  <httpSample t="1419" it="0" lt="1419" ct="275" ts="1577115735932" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2032" it="0" lt="1211" ct="0" ts="1577115737353" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43084" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3445" it="0" lt="1372" ct="271" ts="1577115736901" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43992" sby="257" ng="1" na="1">
+  <httpSample t="1372" it="0" lt="1372" ct="271" ts="1577115736901" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2073" it="0" lt="1262" ct="0" ts="1577115738273" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43084" sby="129" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="2393" it="0" lt="1547" ct="283" ts="1577115740349" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55289" sby="120" ng="1" na="1">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3312" it="0" lt="1339" ct="276" ts="1577115742743" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43993" sby="257" ng="1" na="1">
+  <httpSample t="1339" it="0" lt="1339" ct="276" ts="1577115742743" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1973" it="0" lt="1151" ct="0" ts="1577115744082" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43085" sby="129" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+
+<httpSample t="2440" it="0" lt="1606" ct="276" ts="1577115847553" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55282" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="4315" it="0" lt="2105" ct="274" ts="1577115850013" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="44006" sby="257" ng="2" na="2">
+  <httpSample t="2105" it="0" lt="2105" ct="274" ts="1577115850013" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2207" it="0" lt="1387" ct="288" ts="1577115852121" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43098" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="2305" it="0" lt="1486" ct="272" ts="1577115854331" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55275" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3542" it="0" lt="1564" ct="278" ts="1577115856636" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43992" sby="257" ng="2" na="2">
+  <httpSample t="1564" it="0" lt="1564" ct="278" ts="1577115856636" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1978" it="0" lt="1142" ct="0" ts="1577115858200" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43084" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3342" it="0" lt="2504" ct="304" ts="1577115860180" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55275" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="19811" it="0" lt="2558" ct="315" ts="1577115846153" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55282" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3621" it="0" lt="1447" ct="275" ts="1577115863523" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43992" sby="257" ng="2" na="2">
+  <httpSample t="1447" it="0" lt="1447" ct="275" ts="1577115863523" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2174" it="0" lt="1350" ct="0" ts="1577115864970" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43084" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3564" it="0" lt="1379" ct="269" ts="1577115865964" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43999" sby="257" ng="2" na="2">
+  <httpSample t="1379" it="0" lt="1379" ct="269" ts="1577115865964" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2183" it="0" lt="1375" ct="0" ts="1577115867345" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43091" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="2784" it="0" lt="1956" ct="272" ts="1577115867148" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="55289" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="2986" it="0" lt="2148" ct="277" ts="1577115869529" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55296" sby="120" ng="2" na="2">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="4627" it="0" lt="2027" ct="276" ts="1577115869933" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43999" sby="257" ng="2" na="2">
+  <httpSample t="2027" it="0" lt="2027" ct="276" ts="1577115869933" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-2" dt="text" by="908" sby="128" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2599" it="0" lt="1774" ct="280" ts="1577115871961" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-2" dt="text" by="43091" sby="129" ng="2" na="2">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="3567" it="0" lt="1559" ct="274" ts="1577115872522" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="44012" sby="257" ng="1" na="1">
+  <httpSample t="1559" it="0" lt="1559" ct="274" ts="1577115872522" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="2008" it="0" lt="1198" ct="0" ts="1577115874081" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43104" sby="129" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="2352" it="0" lt="1535" ct="280" ts="1577115876091" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55289" sby="120" ng="1" na="1">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3291" it="0" lt="1334" ct="272" ts="1577115878443" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="44013" sby="257" ng="1" na="1">
+  <httpSample t="1334" it="0" lt="1334" ct="272" ts="1577115878443" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1956" it="0" lt="1142" ct="0" ts="1577115879778" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43105" sby="129" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="2556" it="0" lt="1748" ct="268" ts="1577115881735" s="true" lb="Home Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="55282" sby="120" ng="1" na="1">
+  <java.net.URL>http://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3313" it="0" lt="1405" ct="278" ts="1577115884293" s="true" lb="Archives Page HTTP Request" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="44039" sby="257" ng="1" na="1">
+  <httpSample t="1405" it="0" lt="1405" ct="278" ts="1577115884293" s="true" lb="Archives Page HTTP Request-0" rc="301" rm="Moved Permanently" tn="Users Thread 1-1" dt="text" by="908" sby="128" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1908" it="0" lt="1092" ct="0" ts="1577115885698" s="true" lb="Archives Page HTTP Request-1" rc="200" rm="OK" tn="Users Thread 1-1" dt="text" by="43131" sby="129" ng="1" na="1">
+    <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+
+</testResults>
