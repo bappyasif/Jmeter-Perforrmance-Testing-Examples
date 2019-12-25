@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2.1">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Another Module And Include Controller Example Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments">This test plan was created by the BlazeMeter converter v.2.3.14. Please contact support@blazemeter.com for further support.</stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+        <collectionProp name="HeaderManager.headers">
+          <elementProp name="User-Agent" elementType="Header">
+            <stringProp name="Header.name">User-Agent</stringProp>
+            <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36</stringProp>
+          </elementProp>
+          <elementProp name="DNT" elementType="Header">
+            <stringProp name="Header.name">DNT</stringProp>
+            <stringProp name="Header.value">1</stringProp>
+          </elementProp>
+        </collectionProp>
+      </HeaderManager>
+      <hashTree/>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="BASE_URL_1" elementType="Argument">
+            <stringProp name="Argument.name">BASE_URL_1</stringProp>
+            <stringProp name="Argument.value">www.typing.com</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults" enabled="true">
+        <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+          <collectionProp name="Arguments.arguments"/>
+        </elementProp>
+        <stringProp name="HTTPSampler.domain"></stringProp>
+        <stringProp name="HTTPSampler.port"></stringProp>
+        <stringProp name="HTTPSampler.protocol"></stringProp>
+        <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+        <stringProp name="HTTPSampler.path"></stringProp>
+        <boolProp name="HTTPSampler.image_parser">true</boolProp>
+        <boolProp name="HTTPSampler.concurrentDwn">true</boolProp>
+        <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+        <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+        <stringProp name="HTTPSampler.response_timeout"></stringProp>
+      </ConfigTestElement>
+      <hashTree/>
+      <DNSCacheManager guiclass="DNSCachePanel" testclass="DNSCacheManager" testname="DNS Cache Manager" enabled="true">
+        <collectionProp name="DNSCacheManager.servers"/>
+        <boolProp name="DNSCacheManager.clearEachIteration">true</boolProp>
+        <boolProp name="DNSCacheManager.isCustomResolver">false</boolProp>
+      </DNSCacheManager>
+      <hashTree/>
+      <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
+        <collectionProp name="AuthManager.auth_list"/>
+        <boolProp name="AuthManager.controlledByThreadGroup">false</boolProp>
+      </AuthManager>
+      <hashTree/>
+      <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
+        <collectionProp name="CookieManager.cookies"/>
+        <boolProp name="CookieManager.clearEachIteration">true</boolProp>
+        <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
+      </CookieManager>
+      <hashTree/>
+      <CacheManager guiclass="CacheManagerGui" testclass="CacheManager" testname="HTTP Cache Manager" enabled="true">
+        <boolProp name="clearEachIteration">true</boolProp>
+        <boolProp name="useExpires">false</boolProp>
+        <boolProp name="CacheManager.controlledByThread">false</boolProp>
+      </CacheManager>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Primary Sample Thread Group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Include Controller" enabled="true">
+          <stringProp name="IncludeController.includepath">G:\jmeter Examples\apache-jmeter-5.2.1\Jmeter Workouts\More Jmeter Working Examples\Anotheer Sample Test Fragment.jmx</stringProp>
+        </IncludeController>
+        <hashTree/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Simple Controller" enabled="true"/>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/student/lessons" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">student/lessons</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-User" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-User</stringProp>
+                  <stringProp name="Header.value">?1</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">7161.0</stringProp>
+              <stringProp name="ConstantTimer.delay">3580.5</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 7161 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/student/tests" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">student/tests</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-User" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-User</stringProp>
+                  <stringProp name="Header.value">?1</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">3184.0</stringProp>
+              <stringProp name="ConstantTimer.delay">1592</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 3184 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="First Sample Thread Group" enabled="false">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration">0</stringProp>
+        <stringProp name="ThreadGroup.delay">0</stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Module Controller" enabled="true">
+          <collectionProp name="ModuleController.node_path">
+            <stringProp name="764597751">Test Plan</stringProp>
+            <stringProp name="702641269">Another Module And Include Controller Example Test Plan</stringProp>
+            <stringProp name="170071582">Test Fragment</stringProp>
+          </collectionProp>
+        </ModuleController>
+        <hashTree/>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Test" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/student/login" enabled="false">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">student/login</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-User" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-User</stringProp>
+                  <stringProp name="Header.value">?1</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">0.0</stringProp>
+              <stringProp name="ConstantTimer.delay">0</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 0 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/cdn-cgi/beacon/performance?req_id=54abdc44ae6ce270" enabled="false">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;memory&quot;:{&quot;totalJSHeapSize&quot;:44060192,&quot;usedJSHeapSize&quot;:35900784,&quot;jsHeapSizeLimit&quot;:2197815296},&quot;timings&quot;:{&quot;navigationStart&quot;:1577287869931,&quot;unloadEventStart&quot;:1577287870227,&quot;unloadEventEnd&quot;:1577287870227,&quot;redirectStart&quot;:0,&quot;redirectEnd&quot;:0,&quot;fetchStart&quot;:1577287869934,&quot;domainLookupStart&quot;:1577287869997,&quot;domainLookupEnd&quot;:1577287869997,&quot;connectStart&quot;:1577287869997,&quot;connectEnd&quot;:1577287870135,&quot;secureConnectionStart&quot;:1577287870051,&quot;requestStart&quot;:1577287870136,&quot;responseStart&quot;:1577287870210,&quot;responseEnd&quot;:1577287870213,&quot;domLoading&quot;:1577287870237,&quot;domInteractive&quot;:1577287870643,&quot;domContentLoadedEventStart&quot;:1577287870644,&quot;domContentLoadedEventEnd&quot;:1577287870645,&quot;domComplete&quot;:1577287871009,&quot;loadEventStart&quot;:1577287871009,&quot;loadEventEnd&quot;:1577287871013},&quot;resources&quot;:[{&quot;n&quot;:&quot;https://www.typing.com/dist/shared/js/bugsnag.min.244.js&quot;,&quot;s&quot;:316.75,&quot;d&quot;:79.38,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:316.75,&quot;ds&quot;:316.75,&quot;de&quot;:316.75,&quot;cs&quot;:316.75,&quot;ce&quot;:316.75,&quot;qs&quot;:325.23,&quot;ps&quot;:394.91,&quot;pe&quot;:396.13,&quot;ws&quot;:0,&quot;ss&quot;:316.75,&quot;ts&quot;:11559,&quot;ec&quot;:11430,&quot;dc&quot;:39229},{&quot;n&quot;:&quot;https://www.typing.com/bootstrap/language/en/student.244.js&quot;,&quot;s&quot;:317.855,&quot;d&quot;:258.66,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:317.855,&quot;ds&quot;:317.855,&quot;de&quot;:317.855,&quot;cs&quot;:317.855,&quot;ce&quot;:317.855,&quot;qs&quot;:326.06,&quot;ps&quot;:404.06,&quot;pe&quot;:576.515,&quot;ws&quot;:0,&quot;ss&quot;:317.855,&quot;ts&quot;:62035,&quot;ec&quot;:61874,&quot;dc&quot;:266473},{&quot;n&quot;:&quot;https://www.typing.com/dist/student/js/templates.min.244.js&quot;,&quot;s&quot;:318.535,&quot;d&quot;:187.41,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:318.535,&quot;ds&quot;:318.535,&quot;de&quot;:318.535,&quot;cs&quot;:318.535,&quot;ce&quot;:318.535,&quot;qs&quot;:326.405,&quot;ps&quot;:396.865,&quot;pe&quot;:505.945,&quot;ws&quot;:0,&quot;ss&quot;:318.535,&quot;ts&quot;:33381,&quot;ec&quot;:33223,&quot;dc&quot;:217950},{&quot;n&quot;:&quot;https://www.typing.com/dist/student/js/libs.min.244.js&quot;,&quot;s&quot;:318.93,&quot;d&quot;:273.82,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:318.93,&quot;ds&quot;:318.93,&quot;de&quot;:318.93,&quot;cs&quot;:318.93,&quot;ce&quot;:318.93,&quot;qs&quot;:326.6,&quot;ps&quot;:451.795,&quot;pe&quot;:592.75,&quot;ws&quot;:0,&quot;ss&quot;:318.93,&quot;ts&quot;:155218,&quot;ec&quot;:154938,&quot;dc&quot;:510879},{&quot;n&quot;:&quot;https://www.typing.com/dist/student/js/app.min.244.js&quot;,&quot;s&quot;:319.22,&quot;d&quot;:271.06,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:319.22,&quot;ds&quot;:319.22,&quot;de&quot;:319.22,&quot;cs&quot;:319.22,&quot;ce&quot;:319.22,&quot;qs&quot;:326.89,&quot;ps&quot;:401.36,&quot;pe&quot;:590.28,&quot;ws&quot;:0,&quot;ss&quot;:319.22,&quot;ts&quot;:74099,&quot;ec&quot;:73909,&quot;dc&quot;:337025},{&quot;n&quot;:&quot;https://static.cloudflareinsights.com/beacon.min.js&quot;,&quot;s&quot;:319.85,&quot;d&quot;:243.61,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:319.85,&quot;ds&quot;:0,&quot;de&quot;:0,&quot;cs&quot;:0,&quot;ce&quot;:0,&quot;qs&quot;:0,&quot;ps&quot;:0,&quot;pe&quot;:563.46,&quot;ws&quot;:0,&quot;ss&quot;:0,&quot;ts&quot;:0,&quot;ec&quot;:0,&quot;dc&quot;:0},{&quot;n&quot;:&quot;https://www.typing.com/dist/student/css/app.min.244.css&quot;,&quot;s&quot;:383.68,&quot;d&quot;:203.495,&quot;i&quot;:&quot;link&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:383.68,&quot;ds&quot;:383.68,&quot;de&quot;:383.68,&quot;cs&quot;:383.68,&quot;ce&quot;:383.68,&quot;qs&quot;:385.635,&quot;ps&quot;:518.45,&quot;pe&quot;:587.175,&quot;ws&quot;:0,&quot;ss&quot;:383.68,&quot;ts&quot;:30050,&quot;ec&quot;:29886,&quot;dc&quot;:200800},{&quot;n&quot;:&quot;https://www.typing.com/bootstrap/typing/en/bootstrap.244.js&quot;,&quot;s&quot;:625.535,&quot;d&quot;:83.615,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:625.535,&quot;ds&quot;:625.535,&quot;de&quot;:625.535,&quot;cs&quot;:625.535,&quot;ce&quot;:625.535,&quot;qs&quot;:627.245,&quot;ps&quot;:705.97,&quot;pe&quot;:709.15,&quot;ws&quot;:0,&quot;ss&quot;:625.535,&quot;ts&quot;:28526,&quot;ec&quot;:28419,&quot;dc&quot;:185699},{&quot;n&quot;:&quot;https://www.google-analytics.com/analytics.js&quot;,&quot;s&quot;:710.57,&quot;d&quot;:117.92,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:710.57,&quot;ds&quot;:0,&quot;de&quot;:0,&quot;cs&quot;:0,&quot;ce&quot;:0,&quot;qs&quot;:0,&quot;ps&quot;:0,&quot;pe&quot;:828.49,&quot;ws&quot;:0,&quot;ss&quot;:0,&quot;ts&quot;:0,&quot;ec&quot;:0,&quot;dc&quot;:0},{&quot;n&quot;:&quot;https://www.googletagmanager.com/gtm.js?id=GTM-5M4N3PP&quot;,&quot;s&quot;:711.06,&quot;d&quot;:318.06,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:711.06,&quot;ds&quot;:0,&quot;de&quot;:0,&quot;cs&quot;:0,&quot;ce&quot;:0,&quot;qs&quot;:0,&quot;ps&quot;:0,&quot;pe&quot;:1029.12,&quot;ws&quot;:0,&quot;ss&quot;:0,&quot;ts&quot;:0,&quot;ec&quot;:0,&quot;dc&quot;:0},{&quot;n&quot;:&quot;https://www.typing.com/fonts/MuseoSans-500.woff2&quot;,&quot;s&quot;:752.33,&quot;d&quot;:83.38,&quot;i&quot;:&quot;css&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:752.33,&quot;ds&quot;:752.33,&quot;de&quot;:752.33,&quot;cs&quot;:752.33,&quot;ce&quot;:752.33,&quot;qs&quot;:762.47,&quot;ps&quot;:834.86,&quot;pe&quot;:835.71,&quot;ws&quot;:0,&quot;ss&quot;:752.33,&quot;ts&quot;:25484,&quot;ec&quot;:25328,&quot;dc&quot;:25328},{&quot;n&quot;:&quot;https://www.typing.com/dist/student/images/icons.svg#home&quot;,&quot;s&quot;:802.25,&quot;d&quot;:77.595,&quot;i&quot;:&quot;use&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:802.25,&quot;ds&quot;:802.25,&quot;de&quot;:802.25,&quot;cs&quot;:802.25,&quot;ce&quot;:802.25,&quot;qs&quot;:804.02,&quot;ps&quot;:878.15,&quot;pe&quot;:879.845,&quot;ws&quot;:0,&quot;ss&quot;:802.25,&quot;ts&quot;:7869,&quot;ec&quot;:7765,&quot;dc&quot;:30202},{&quot;n&quot;:&quot;https://www.typing.com/dist/shared/images/flags/us.png&quot;,&quot;s&quot;:804.17,&quot;d&quot;:70.07,&quot;i&quot;:&quot;img&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:804.17,&quot;ds&quot;:804.17,&quot;de&quot;:804.17,&quot;cs&quot;:804.17,&quot;ce&quot;:804.17,&quot;qs&quot;:806.78,&quot;ps&quot;:873.435,&quot;pe&quot;:874.24,&quot;ws&quot;:0,&quot;ss&quot;:804.17,&quot;ts&quot;:660,&quot;ec&quot;:498,&quot;dc&quot;:498},{&quot;n&quot;:&quot;https://www.typing.com/dist/shared/images/flags/gb.png&quot;,&quot;s&quot;:804.425,&quot;d&quot;:113.86,&quot;i&quot;:&quot;img&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:804.425,&quot;ds&quot;:804.425,&quot;de&quot;:804.425,&quot;cs&quot;:804.425,&quot;ce&quot;:804.425,&quot;qs&quot;:806.85,&quot;ps&quot;:890.24,&quot;pe&quot;:918.285,&quot;ws&quot;:0,&quot;ss&quot;:804.425,&quot;ts&quot;:658,&quot;ec&quot;:534,&quot;dc&quot;:534},{&quot;n&quot;:&quot;https://www.typing.com/dist/shared/images/flags/es.png&quot;,&quot;s&quot;:804.59,&quot;d&quot;:112.305,&quot;i&quot;:&quot;img&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:804.59,&quot;ds&quot;:804.59,&quot;de&quot;:804.59,&quot;cs&quot;:804.59,&quot;ce&quot;:804.59,&quot;qs&quot;:807.445,&quot;ps&quot;:879.135,&quot;pe&quot;:916.895,&quot;ws&quot;:0,&quot;ss&quot;:804.59,&quot;ts&quot;:654,&quot;ec&quot;:332,&quot;dc&quot;:332},{&quot;n&quot;:&quot;https://www.typing.com/dist/student/images/teachingcom_logo.svg&quot;,&quot;s&quot;:804.745,&quot;d&quot;:111.52,&quot;i&quot;:&quot;img&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:804.745,&quot;ds&quot;:804.745,&quot;de&quot;:804.745,&quot;cs&quot;:804.745,&quot;ce&quot;:804.745,&quot;qs&quot;:807.51,&quot;ps&quot;:879.035,&quot;pe&quot;:916.265,&quot;ws&quot;:0,&quot;ss&quot;:804.745,&quot;ts&quot;:3393,&quot;ec&quot;:3251,&quot;dc&quot;:9530},{&quot;n&quot;:&quot;https://www.typing.com/dist/student/images/logo-typing.svg&quot;,&quot;s&quot;:805.82,&quot;d&quot;:72.19,&quot;i&quot;:&quot;css&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:805.82,&quot;ds&quot;:805.82,&quot;de&quot;:805.82,&quot;cs&quot;:805.82,&quot;ce&quot;:805.82,&quot;qs&quot;:807.85,&quot;ps&quot;:877.035,&quot;pe&quot;:878.01,&quot;ws&quot;:0,&quot;ss&quot;:805.82,&quot;ts&quot;:1659,&quot;ec&quot;:1557,&quot;dc&quot;:3993},{&quot;n&quot;:&quot;https://www.typing.com/dist/shared/images/service-clever.svg&quot;,&quot;s&quot;:808.005,&quot;d&quot;:67.59,&quot;i&quot;:&quot;css&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:808.005,&quot;ds&quot;:808.005,&quot;de&quot;:808.005,&quot;cs&quot;:808.005,&quot;ce&quot;:808.005,&quot;qs&quot;:809.86,&quot;ps&quot;:874.835,&quot;pe&quot;:875.595,&quot;ws&quot;:0,&quot;ss&quot;:808.005,&quot;ts&quot;:462,&quot;ec&quot;:371,&quot;dc&quot;:689},{&quot;n&quot;:&quot;https://www.typing.com/dist/shared/images/service-google.svg&quot;,&quot;s&quot;:808.375,&quot;d&quot;:71.85,&quot;i&quot;:&quot;css&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:808.375,&quot;ds&quot;:808.375,&quot;de&quot;:808.375,&quot;cs&quot;:808.375,&quot;ce&quot;:808.375,&quot;qs&quot;:810.32,&quot;ps&quot;:878.265,&quot;pe&quot;:880.225,&quot;ws&quot;:0,&quot;ss&quot;:808.375,&quot;ts&quot;:685,&quot;ec&quot;:607,&quot;dc&quot;:1380},{&quot;n&quot;:&quot;https://www.typing.com/dist/shared/images/service-classlink.svg&quot;,&quot;s&quot;:808.745,&quot;d&quot;:108.45,&quot;i&quot;:&quot;css&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:808.745,&quot;ds&quot;:808.745,&quot;de&quot;:808.745,&quot;cs&quot;:808.745,&quot;ce&quot;:808.745,&quot;qs&quot;:810.79,&quot;ps&quot;:879.985,&quot;pe&quot;:917.195,&quot;ws&quot;:0,&quot;ss&quot;:808.745,&quot;ts&quot;:977,&quot;ec&quot;:887,&quot;dc&quot;:2272},{&quot;n&quot;:&quot;https://www.typing.com/fonts/MuseoSans-700.woff2&quot;,&quot;s&quot;:809.745,&quot;d&quot;:108.725,&quot;i&quot;:&quot;css&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:809.745,&quot;ds&quot;:809.745,&quot;de&quot;:809.745,&quot;cs&quot;:809.745,&quot;ce&quot;:809.745,&quot;qs&quot;:820.295,&quot;ps&quot;:893.855,&quot;pe&quot;:918.47,&quot;ws&quot;:0,&quot;ss&quot;:809.745,&quot;ts&quot;:21301,&quot;ec&quot;:21200,&quot;dc&quot;:21200}],&quot;redirectCount&quot;:0,&quot;documentWriteIntervention&quot;:false,&quot;errorCount&quot;:0,&quot;firstPaint&quot;:749.5350000099279,&quot;firstContentfulPaint&quot;:849.675000004936,&quot;startTime&quot;:1577287870205,&quot;versions&quot;:{&quot;fl&quot;:&quot;2019.10.2&quot;,&quot;js&quot;:&quot;2019.12.0-1-g7891-dev&quot;},&quot;pageloadId&quot;:&quot;2ecad583-4e20-4004-951e-15e7108d61ab&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">cdn-cgi/beacon/performance?req_id=54abdc44ae6ce270</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://www.typing.com</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">1123.0</stringProp>
+              <stringProp name="ConstantTimer.delay">561.5</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 1123 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/apiv1/student/login-username" enabled="false">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;district_id&quot;:null,&quot;username&quot;:&quot;abappy007&quot;,&quot;user_id&quot;:&quot;&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">apiv1/student/login-username</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://www.typing.com</stringProp>
+                </elementProp>
+                <elementProp name="x-language" elementType="Header">
+                  <stringProp name="Header.name">x-language</stringProp>
+                  <stringProp name="Header.value">en</stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer null</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json, text/javascript, */*; q=0.01</stringProp>
+                </elementProp>
+                <elementProp name="X-Requested-With" elementType="Header">
+                  <stringProp name="Header.name">X-Requested-With</stringProp>
+                  <stringProp name="Header.value">XMLHttpRequest</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">6279.0</stringProp>
+              <stringProp name="ConstantTimer.delay">3139.5</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 6279 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/apiv1/student/auth/login" enabled="false">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;code&quot;:null,&quot;username&quot;:&quot;abappy007&quot;,&quot;password&quot;:&quot;7LhB26qEs-va=?s&quot;,&quot;screenWidth&quot;:1920,&quot;user_id&quot;:&quot;104296992&quot;,&quot;login_type&quot;:&quot;username&quot;,&quot;has_password&quot;:null,&quot;checkTimestamp&quot;:1577287877,&quot;join_code&quot;:&quot;&quot;,&quot;section_id&quot;:&quot;&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">apiv1/student/auth/login</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://www.typing.com</stringProp>
+                </elementProp>
+                <elementProp name="x-language" elementType="Header">
+                  <stringProp name="Header.name">x-language</stringProp>
+                  <stringProp name="Header.value">en</stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer null</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json, text/javascript, */*; q=0.01</stringProp>
+                </elementProp>
+                <elementProp name="X-Requested-With" elementType="Header">
+                  <stringProp name="Header.name">X-Requested-With</stringProp>
+                  <stringProp name="Header.value">XMLHttpRequest</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">7676.0</stringProp>
+              <stringProp name="ConstantTimer.delay">3838</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 7676 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/student/lessons" enabled="false">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">student/lessons</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-User" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-User</stringProp>
+                  <stringProp name="Header.value">?1</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">537.0</stringProp>
+              <stringProp name="ConstantTimer.delay">268.5</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 537 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/student/lessons" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">student/lessons</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-User" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-User</stringProp>
+                  <stringProp name="Header.value">?1</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">7161.0</stringProp>
+              <stringProp name="ConstantTimer.delay">3580.5</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 7161 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/student/tests" enabled="false">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">student/tests</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-User" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-User</stringProp>
+                  <stringProp name="Header.value">?1</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">3184.0</stringProp>
+              <stringProp name="ConstantTimer.delay">1592</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 3184 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/apiv1/student/tests" enabled="false">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">apiv1/student/tests</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json, text/javascript, */*; q=0.01</stringProp>
+                </elementProp>
+                <elementProp name="x-language" elementType="Header">
+                  <stringProp name="Header.name">x-language</stringProp>
+                  <stringProp name="Header.value">en</stringProp>
+                </elementProp>
+                <elementProp name="X-Requested-With" elementType="Header">
+                  <stringProp name="Header.name">X-Requested-With</stringProp>
+                  <stringProp name="Header.value">XMLHttpRequest</stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZGVudGlmaWVyIjoidXNlcl9pZCIsImxvZ2luX3R5cGUiOiJ1c2VybmFtZSIsInVzZXJfc2Vzc2lvbl9pZCI6MzQxNzU1MDc1LCJzdWIiOjEwNDI5Njk5MiwiaXNzIjoiaHR0cDovL3d3dy50eXBpbmcuY29tL2FwaXYxL3N0dWRlbnQvYXV0aC9sb2dpbiIsImlhdCI6MTU3NzI4Nzg4NSwiZXhwIjoxNTc3MzMxMDg1LCJuYmYiOjE1NzcyODc4ODUsImp0aSI6IktFMzBmUFhzRm9INDNOcDkifQ.8uXI1AatatRLYdYOFvE-Vi_qd_QjJ65PzU03UgPJglg</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Second Sample Thread Group" enabled="false">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration">0</stringProp>
+        <stringProp name="ThreadGroup.delay">0</stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Module Controller" enabled="true">
+          <collectionProp name="ModuleController.node_path">
+            <stringProp name="764597751">Test Plan</stringProp>
+            <stringProp name="702641269">Another Module And Include Controller Example Test Plan</stringProp>
+            <stringProp name="170071582">Test Fragment</stringProp>
+          </collectionProp>
+        </ModuleController>
+        <hashTree/>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Test" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/student/login" enabled="false">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">student/login</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-User" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-User</stringProp>
+                  <stringProp name="Header.value">?1</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">0.0</stringProp>
+              <stringProp name="ConstantTimer.delay">0</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 0 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/cdn-cgi/beacon/performance?req_id=54abdc44ae6ce270" enabled="false">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;memory&quot;:{&quot;totalJSHeapSize&quot;:44060192,&quot;usedJSHeapSize&quot;:35900784,&quot;jsHeapSizeLimit&quot;:2197815296},&quot;timings&quot;:{&quot;navigationStart&quot;:1577287869931,&quot;unloadEventStart&quot;:1577287870227,&quot;unloadEventEnd&quot;:1577287870227,&quot;redirectStart&quot;:0,&quot;redirectEnd&quot;:0,&quot;fetchStart&quot;:1577287869934,&quot;domainLookupStart&quot;:1577287869997,&quot;domainLookupEnd&quot;:1577287869997,&quot;connectStart&quot;:1577287869997,&quot;connectEnd&quot;:1577287870135,&quot;secureConnectionStart&quot;:1577287870051,&quot;requestStart&quot;:1577287870136,&quot;responseStart&quot;:1577287870210,&quot;responseEnd&quot;:1577287870213,&quot;domLoading&quot;:1577287870237,&quot;domInteractive&quot;:1577287870643,&quot;domContentLoadedEventStart&quot;:1577287870644,&quot;domContentLoadedEventEnd&quot;:1577287870645,&quot;domComplete&quot;:1577287871009,&quot;loadEventStart&quot;:1577287871009,&quot;loadEventEnd&quot;:1577287871013},&quot;resources&quot;:[{&quot;n&quot;:&quot;https://www.typing.com/dist/shared/js/bugsnag.min.244.js&quot;,&quot;s&quot;:316.75,&quot;d&quot;:79.38,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:316.75,&quot;ds&quot;:316.75,&quot;de&quot;:316.75,&quot;cs&quot;:316.75,&quot;ce&quot;:316.75,&quot;qs&quot;:325.23,&quot;ps&quot;:394.91,&quot;pe&quot;:396.13,&quot;ws&quot;:0,&quot;ss&quot;:316.75,&quot;ts&quot;:11559,&quot;ec&quot;:11430,&quot;dc&quot;:39229},{&quot;n&quot;:&quot;https://www.typing.com/bootstrap/language/en/student.244.js&quot;,&quot;s&quot;:317.855,&quot;d&quot;:258.66,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:317.855,&quot;ds&quot;:317.855,&quot;de&quot;:317.855,&quot;cs&quot;:317.855,&quot;ce&quot;:317.855,&quot;qs&quot;:326.06,&quot;ps&quot;:404.06,&quot;pe&quot;:576.515,&quot;ws&quot;:0,&quot;ss&quot;:317.855,&quot;ts&quot;:62035,&quot;ec&quot;:61874,&quot;dc&quot;:266473},{&quot;n&quot;:&quot;https://www.typing.com/dist/student/js/templates.min.244.js&quot;,&quot;s&quot;:318.535,&quot;d&quot;:187.41,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:318.535,&quot;ds&quot;:318.535,&quot;de&quot;:318.535,&quot;cs&quot;:318.535,&quot;ce&quot;:318.535,&quot;qs&quot;:326.405,&quot;ps&quot;:396.865,&quot;pe&quot;:505.945,&quot;ws&quot;:0,&quot;ss&quot;:318.535,&quot;ts&quot;:33381,&quot;ec&quot;:33223,&quot;dc&quot;:217950},{&quot;n&quot;:&quot;https://www.typing.com/dist/student/js/libs.min.244.js&quot;,&quot;s&quot;:318.93,&quot;d&quot;:273.82,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:318.93,&quot;ds&quot;:318.93,&quot;de&quot;:318.93,&quot;cs&quot;:318.93,&quot;ce&quot;:318.93,&quot;qs&quot;:326.6,&quot;ps&quot;:451.795,&quot;pe&quot;:592.75,&quot;ws&quot;:0,&quot;ss&quot;:318.93,&quot;ts&quot;:155218,&quot;ec&quot;:154938,&quot;dc&quot;:510879},{&quot;n&quot;:&quot;https://www.typing.com/dist/student/js/app.min.244.js&quot;,&quot;s&quot;:319.22,&quot;d&quot;:271.06,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:319.22,&quot;ds&quot;:319.22,&quot;de&quot;:319.22,&quot;cs&quot;:319.22,&quot;ce&quot;:319.22,&quot;qs&quot;:326.89,&quot;ps&quot;:401.36,&quot;pe&quot;:590.28,&quot;ws&quot;:0,&quot;ss&quot;:319.22,&quot;ts&quot;:74099,&quot;ec&quot;:73909,&quot;dc&quot;:337025},{&quot;n&quot;:&quot;https://static.cloudflareinsights.com/beacon.min.js&quot;,&quot;s&quot;:319.85,&quot;d&quot;:243.61,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:319.85,&quot;ds&quot;:0,&quot;de&quot;:0,&quot;cs&quot;:0,&quot;ce&quot;:0,&quot;qs&quot;:0,&quot;ps&quot;:0,&quot;pe&quot;:563.46,&quot;ws&quot;:0,&quot;ss&quot;:0,&quot;ts&quot;:0,&quot;ec&quot;:0,&quot;dc&quot;:0},{&quot;n&quot;:&quot;https://www.typing.com/dist/student/css/app.min.244.css&quot;,&quot;s&quot;:383.68,&quot;d&quot;:203.495,&quot;i&quot;:&quot;link&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:383.68,&quot;ds&quot;:383.68,&quot;de&quot;:383.68,&quot;cs&quot;:383.68,&quot;ce&quot;:383.68,&quot;qs&quot;:385.635,&quot;ps&quot;:518.45,&quot;pe&quot;:587.175,&quot;ws&quot;:0,&quot;ss&quot;:383.68,&quot;ts&quot;:30050,&quot;ec&quot;:29886,&quot;dc&quot;:200800},{&quot;n&quot;:&quot;https://www.typing.com/bootstrap/typing/en/bootstrap.244.js&quot;,&quot;s&quot;:625.535,&quot;d&quot;:83.615,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:625.535,&quot;ds&quot;:625.535,&quot;de&quot;:625.535,&quot;cs&quot;:625.535,&quot;ce&quot;:625.535,&quot;qs&quot;:627.245,&quot;ps&quot;:705.97,&quot;pe&quot;:709.15,&quot;ws&quot;:0,&quot;ss&quot;:625.535,&quot;ts&quot;:28526,&quot;ec&quot;:28419,&quot;dc&quot;:185699},{&quot;n&quot;:&quot;https://www.google-analytics.com/analytics.js&quot;,&quot;s&quot;:710.57,&quot;d&quot;:117.92,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:710.57,&quot;ds&quot;:0,&quot;de&quot;:0,&quot;cs&quot;:0,&quot;ce&quot;:0,&quot;qs&quot;:0,&quot;ps&quot;:0,&quot;pe&quot;:828.49,&quot;ws&quot;:0,&quot;ss&quot;:0,&quot;ts&quot;:0,&quot;ec&quot;:0,&quot;dc&quot;:0},{&quot;n&quot;:&quot;https://www.googletagmanager.com/gtm.js?id=GTM-5M4N3PP&quot;,&quot;s&quot;:711.06,&quot;d&quot;:318.06,&quot;i&quot;:&quot;script&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:711.06,&quot;ds&quot;:0,&quot;de&quot;:0,&quot;cs&quot;:0,&quot;ce&quot;:0,&quot;qs&quot;:0,&quot;ps&quot;:0,&quot;pe&quot;:1029.12,&quot;ws&quot;:0,&quot;ss&quot;:0,&quot;ts&quot;:0,&quot;ec&quot;:0,&quot;dc&quot;:0},{&quot;n&quot;:&quot;https://www.typing.com/fonts/MuseoSans-500.woff2&quot;,&quot;s&quot;:752.33,&quot;d&quot;:83.38,&quot;i&quot;:&quot;css&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:752.33,&quot;ds&quot;:752.33,&quot;de&quot;:752.33,&quot;cs&quot;:752.33,&quot;ce&quot;:752.33,&quot;qs&quot;:762.47,&quot;ps&quot;:834.86,&quot;pe&quot;:835.71,&quot;ws&quot;:0,&quot;ss&quot;:752.33,&quot;ts&quot;:25484,&quot;ec&quot;:25328,&quot;dc&quot;:25328},{&quot;n&quot;:&quot;https://www.typing.com/dist/student/images/icons.svg#home&quot;,&quot;s&quot;:802.25,&quot;d&quot;:77.595,&quot;i&quot;:&quot;use&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:802.25,&quot;ds&quot;:802.25,&quot;de&quot;:802.25,&quot;cs&quot;:802.25,&quot;ce&quot;:802.25,&quot;qs&quot;:804.02,&quot;ps&quot;:878.15,&quot;pe&quot;:879.845,&quot;ws&quot;:0,&quot;ss&quot;:802.25,&quot;ts&quot;:7869,&quot;ec&quot;:7765,&quot;dc&quot;:30202},{&quot;n&quot;:&quot;https://www.typing.com/dist/shared/images/flags/us.png&quot;,&quot;s&quot;:804.17,&quot;d&quot;:70.07,&quot;i&quot;:&quot;img&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:804.17,&quot;ds&quot;:804.17,&quot;de&quot;:804.17,&quot;cs&quot;:804.17,&quot;ce&quot;:804.17,&quot;qs&quot;:806.78,&quot;ps&quot;:873.435,&quot;pe&quot;:874.24,&quot;ws&quot;:0,&quot;ss&quot;:804.17,&quot;ts&quot;:660,&quot;ec&quot;:498,&quot;dc&quot;:498},{&quot;n&quot;:&quot;https://www.typing.com/dist/shared/images/flags/gb.png&quot;,&quot;s&quot;:804.425,&quot;d&quot;:113.86,&quot;i&quot;:&quot;img&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:804.425,&quot;ds&quot;:804.425,&quot;de&quot;:804.425,&quot;cs&quot;:804.425,&quot;ce&quot;:804.425,&quot;qs&quot;:806.85,&quot;ps&quot;:890.24,&quot;pe&quot;:918.285,&quot;ws&quot;:0,&quot;ss&quot;:804.425,&quot;ts&quot;:658,&quot;ec&quot;:534,&quot;dc&quot;:534},{&quot;n&quot;:&quot;https://www.typing.com/dist/shared/images/flags/es.png&quot;,&quot;s&quot;:804.59,&quot;d&quot;:112.305,&quot;i&quot;:&quot;img&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:804.59,&quot;ds&quot;:804.59,&quot;de&quot;:804.59,&quot;cs&quot;:804.59,&quot;ce&quot;:804.59,&quot;qs&quot;:807.445,&quot;ps&quot;:879.135,&quot;pe&quot;:916.895,&quot;ws&quot;:0,&quot;ss&quot;:804.59,&quot;ts&quot;:654,&quot;ec&quot;:332,&quot;dc&quot;:332},{&quot;n&quot;:&quot;https://www.typing.com/dist/student/images/teachingcom_logo.svg&quot;,&quot;s&quot;:804.745,&quot;d&quot;:111.52,&quot;i&quot;:&quot;img&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:804.745,&quot;ds&quot;:804.745,&quot;de&quot;:804.745,&quot;cs&quot;:804.745,&quot;ce&quot;:804.745,&quot;qs&quot;:807.51,&quot;ps&quot;:879.035,&quot;pe&quot;:916.265,&quot;ws&quot;:0,&quot;ss&quot;:804.745,&quot;ts&quot;:3393,&quot;ec&quot;:3251,&quot;dc&quot;:9530},{&quot;n&quot;:&quot;https://www.typing.com/dist/student/images/logo-typing.svg&quot;,&quot;s&quot;:805.82,&quot;d&quot;:72.19,&quot;i&quot;:&quot;css&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:805.82,&quot;ds&quot;:805.82,&quot;de&quot;:805.82,&quot;cs&quot;:805.82,&quot;ce&quot;:805.82,&quot;qs&quot;:807.85,&quot;ps&quot;:877.035,&quot;pe&quot;:878.01,&quot;ws&quot;:0,&quot;ss&quot;:805.82,&quot;ts&quot;:1659,&quot;ec&quot;:1557,&quot;dc&quot;:3993},{&quot;n&quot;:&quot;https://www.typing.com/dist/shared/images/service-clever.svg&quot;,&quot;s&quot;:808.005,&quot;d&quot;:67.59,&quot;i&quot;:&quot;css&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:808.005,&quot;ds&quot;:808.005,&quot;de&quot;:808.005,&quot;cs&quot;:808.005,&quot;ce&quot;:808.005,&quot;qs&quot;:809.86,&quot;ps&quot;:874.835,&quot;pe&quot;:875.595,&quot;ws&quot;:0,&quot;ss&quot;:808.005,&quot;ts&quot;:462,&quot;ec&quot;:371,&quot;dc&quot;:689},{&quot;n&quot;:&quot;https://www.typing.com/dist/shared/images/service-google.svg&quot;,&quot;s&quot;:808.375,&quot;d&quot;:71.85,&quot;i&quot;:&quot;css&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:808.375,&quot;ds&quot;:808.375,&quot;de&quot;:808.375,&quot;cs&quot;:808.375,&quot;ce&quot;:808.375,&quot;qs&quot;:810.32,&quot;ps&quot;:878.265,&quot;pe&quot;:880.225,&quot;ws&quot;:0,&quot;ss&quot;:808.375,&quot;ts&quot;:685,&quot;ec&quot;:607,&quot;dc&quot;:1380},{&quot;n&quot;:&quot;https://www.typing.com/dist/shared/images/service-classlink.svg&quot;,&quot;s&quot;:808.745,&quot;d&quot;:108.45,&quot;i&quot;:&quot;css&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:808.745,&quot;ds&quot;:808.745,&quot;de&quot;:808.745,&quot;cs&quot;:808.745,&quot;ce&quot;:808.745,&quot;qs&quot;:810.79,&quot;ps&quot;:879.985,&quot;pe&quot;:917.195,&quot;ws&quot;:0,&quot;ss&quot;:808.745,&quot;ts&quot;:977,&quot;ec&quot;:887,&quot;dc&quot;:2272},{&quot;n&quot;:&quot;https://www.typing.com/fonts/MuseoSans-700.woff2&quot;,&quot;s&quot;:809.745,&quot;d&quot;:108.725,&quot;i&quot;:&quot;css&quot;,&quot;p&quot;:&quot;h2&quot;,&quot;rs&quot;:0,&quot;re&quot;:0,&quot;fs&quot;:809.745,&quot;ds&quot;:809.745,&quot;de&quot;:809.745,&quot;cs&quot;:809.745,&quot;ce&quot;:809.745,&quot;qs&quot;:820.295,&quot;ps&quot;:893.855,&quot;pe&quot;:918.47,&quot;ws&quot;:0,&quot;ss&quot;:809.745,&quot;ts&quot;:21301,&quot;ec&quot;:21200,&quot;dc&quot;:21200}],&quot;redirectCount&quot;:0,&quot;documentWriteIntervention&quot;:false,&quot;errorCount&quot;:0,&quot;firstPaint&quot;:749.5350000099279,&quot;firstContentfulPaint&quot;:849.675000004936,&quot;startTime&quot;:1577287870205,&quot;versions&quot;:{&quot;fl&quot;:&quot;2019.10.2&quot;,&quot;js&quot;:&quot;2019.12.0-1-g7891-dev&quot;},&quot;pageloadId&quot;:&quot;2ecad583-4e20-4004-951e-15e7108d61ab&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">cdn-cgi/beacon/performance?req_id=54abdc44ae6ce270</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://www.typing.com</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">1123.0</stringProp>
+              <stringProp name="ConstantTimer.delay">561.5</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 1123 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/apiv1/student/login-username" enabled="false">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;district_id&quot;:null,&quot;username&quot;:&quot;abappy007&quot;,&quot;user_id&quot;:&quot;&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">apiv1/student/login-username</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://www.typing.com</stringProp>
+                </elementProp>
+                <elementProp name="x-language" elementType="Header">
+                  <stringProp name="Header.name">x-language</stringProp>
+                  <stringProp name="Header.value">en</stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer null</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json, text/javascript, */*; q=0.01</stringProp>
+                </elementProp>
+                <elementProp name="X-Requested-With" elementType="Header">
+                  <stringProp name="Header.name">X-Requested-With</stringProp>
+                  <stringProp name="Header.value">XMLHttpRequest</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">6279.0</stringProp>
+              <stringProp name="ConstantTimer.delay">3139.5</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 6279 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/apiv1/student/auth/login" enabled="false">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;code&quot;:null,&quot;username&quot;:&quot;abappy007&quot;,&quot;password&quot;:&quot;7LhB26qEs-va=?s&quot;,&quot;screenWidth&quot;:1920,&quot;user_id&quot;:&quot;104296992&quot;,&quot;login_type&quot;:&quot;username&quot;,&quot;has_password&quot;:null,&quot;checkTimestamp&quot;:1577287877,&quot;join_code&quot;:&quot;&quot;,&quot;section_id&quot;:&quot;&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">apiv1/student/auth/login</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://www.typing.com</stringProp>
+                </elementProp>
+                <elementProp name="x-language" elementType="Header">
+                  <stringProp name="Header.name">x-language</stringProp>
+                  <stringProp name="Header.value">en</stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer null</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json, text/javascript, */*; q=0.01</stringProp>
+                </elementProp>
+                <elementProp name="X-Requested-With" elementType="Header">
+                  <stringProp name="Header.name">X-Requested-With</stringProp>
+                  <stringProp name="Header.value">XMLHttpRequest</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">7676.0</stringProp>
+              <stringProp name="ConstantTimer.delay">3838</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 7676 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/student/lessons" enabled="false">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">student/lessons</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-User" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-User</stringProp>
+                  <stringProp name="Header.value">?1</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">537.0</stringProp>
+              <stringProp name="ConstantTimer.delay">268.5</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 537 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/student/lessons" enabled="false">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">student/lessons</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-User" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-User</stringProp>
+                  <stringProp name="Header.value">?1</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">7161.0</stringProp>
+              <stringProp name="ConstantTimer.delay">3580.5</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 7161 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/student/tests" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">student/tests</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-User" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-User</stringProp>
+                  <stringProp name="Header.value">?1</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+              <stringProp name="RandomTimer.range">3184.0</stringProp>
+              <stringProp name="ConstantTimer.delay">1592</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 3184 milliseconds</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/apiv1/student/tests" enabled="false">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">apiv1/student/tests</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json, text/javascript, */*; q=0.01</stringProp>
+                </elementProp>
+                <elementProp name="x-language" elementType="Header">
+                  <stringProp name="Header.name">x-language</stringProp>
+                  <stringProp name="Header.value">en</stringProp>
+                </elementProp>
+                <elementProp name="X-Requested-With" elementType="Header">
+                  <stringProp name="Header.name">X-Requested-With</stringProp>
+                  <stringProp name="Header.value">XMLHttpRequest</stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZGVudGlmaWVyIjoidXNlcl9pZCIsImxvZ2luX3R5cGUiOiJ1c2VybmFtZSIsInVzZXJfc2Vzc2lvbl9pZCI6MzQxNzU1MDc1LCJzdWIiOjEwNDI5Njk5MiwiaXNzIjoiaHR0cDovL3d3dy50eXBpbmcuY29tL2FwaXYxL3N0dWRlbnQvYXV0aC9sb2dpbiIsImlhdCI6MTU3NzI4Nzg4NSwiZXhwIjoxNTc3MzMxMDg1LCJuYmYiOjE1NzcyODc4ODUsImp0aSI6IktFMzBmUFhzRm9INDNOcDkifQ.8uXI1AatatRLYdYOFvE-Vi_qd_QjJ65PzU03UgPJglg</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+      </hashTree>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>true</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="Test Fragment" enabled="false"/>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://www.typing.com/apiv1/student/auth/login" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&quot;code&quot;:null,&quot;username&quot;:&quot;abappy007&quot;,&quot;password&quot;:&quot;7LhB26qEs-va=?s&quot;,&quot;screenWidth&quot;:1920,&quot;user_id&quot;:&quot;104296992&quot;,&quot;login_type&quot;:&quot;username&quot;,&quot;has_password&quot;:null,&quot;checkTimestamp&quot;:1577287877,&quot;join_code&quot;:&quot;&quot;,&quot;section_id&quot;:&quot;&quot;}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">apiv1/student/auth/login</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="Origin" elementType="Header">
+                <stringProp name="Header.name">Origin</stringProp>
+                <stringProp name="Header.value">https://www.typing.com</stringProp>
+              </elementProp>
+              <elementProp name="x-language" elementType="Header">
+                <stringProp name="Header.name">x-language</stringProp>
+                <stringProp name="Header.value">en</stringProp>
+              </elementProp>
+              <elementProp name="Authorization" elementType="Header">
+                <stringProp name="Header.name">Authorization</stringProp>
+                <stringProp name="Header.value">Bearer null</stringProp>
+              </elementProp>
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="Accept" elementType="Header">
+                <stringProp name="Header.name">Accept</stringProp>
+                <stringProp name="Header.value">application/json, text/javascript, */*; q=0.01</stringProp>
+              </elementProp>
+              <elementProp name="X-Requested-With" elementType="Header">
+                <stringProp name="Header.name">X-Requested-With</stringProp>
+                <stringProp name="Header.value">XMLHttpRequest</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+            <stringProp name="RandomTimer.range">7676.0</stringProp>
+            <stringProp name="ConstantTimer.delay">3838</stringProp>
+            <stringProp name="TestPlan.comments">Recorded time was 7676 milliseconds</stringProp>
+          </UniformRandomTimer>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
